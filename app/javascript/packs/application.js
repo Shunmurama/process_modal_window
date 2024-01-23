@@ -8,6 +8,14 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+import "./modal.js"
+
+import "../stylesheets/modal.css"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+//= require jquery3
+//= require popper
+//= require bootstrap

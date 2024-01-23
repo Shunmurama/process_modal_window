@@ -1,0 +1,5 @@
+application.jsにimportで記述することを忘れずに行う
+
+window.addEventListener('DOMContentLoaded',
+↑を使うことでjQueryを使わずに動作するようになる
+（こっちの方が簡単かも）
